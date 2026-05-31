@@ -1,3 +1,5 @@
+using ticketbookingsystem.Models;
+
 namespace ticketbookingsystem
 {
     internal static class Program
@@ -13,5 +15,6 @@ namespace ticketbookingsystem
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
+        public static List<Booking> bookings = new List<Booking>();
     }
 }
